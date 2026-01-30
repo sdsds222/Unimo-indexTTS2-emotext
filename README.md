@@ -14,6 +14,8 @@ Unimo 是一个专门为优化IndexTTS2而训练的自然语言情绪向量转�
 输入情绪描述文本，模型即可输出情绪向量，向量可直接给IndexTTS2使用。
 目前只做了控制台交互界面和对比测试界面，有需要的可以根据py文件自己编写api调用逻辑。
 
+Huggingface仓库: https://huggingface.co/sdsds222moyu/Unimo-indexTTS2-emotext
+
 ## 部署方法：
 安装依赖：
 ```
