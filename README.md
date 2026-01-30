@@ -33,7 +33,7 @@ python Unimo_interactive_qwen2.5
 ```
 python Unimo_interactive_qwen3.py
 ```
-![image](image/2.png)
+![image](2.png)
 
 启动对比测试界面（和原版内置的情绪文本解析模型进行对比）：
 ```
@@ -43,5 +43,5 @@ python Unimo_test_qwen2.5.py
 python Unimo_test_qwen3.py
 ```
 
-![image](image/1.png)
+![image](1.png)
 
