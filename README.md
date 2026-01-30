@@ -1,4 +1,4 @@
-# Unimo emotional text analysis model
+# Unimo IndexTTS2情绪描述文本解析优化模型
 Unimo 是一个专门为优化IndexTTS2而训练的自然语言情绪向量转换模型，基于Qwen3-0.6B和Qwen2.5-0.5B模型微调。
 
 目的是为了优化原版IndexTTS2内置的情感文本描述解析模型，提升解析情绪文本的准确度。
