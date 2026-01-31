@@ -1,5 +1,25 @@
+---
+license: agpl-3.0
+base_model:
+- Qwen/Qwen3-0.6B
+- Qwen/Qwen2.5-0.5B-Instruct
+pipeline_tag: text-classification
+tags:
+- emotion-recognition
+- tts
+- unimo
+- IndexTTS2
+- emotion-vector
+language:
+- zh
+- en
+---
+
+
 # Unimo IndexTTS2情绪描述文本解析优化模型
 Unimo 是一个专门为优化IndexTTS2而训练的自然语言情绪向量转换模型，基于Qwen3-0.6B和Qwen2.5-0.5B模型微调。
+
+先看使用效果视频：https://www.bilibili.com/video/BV1FV6qB6E9N
 
 目的是为了优化原版IndexTTS2内置的情感文本描述解析模型，提升解析情绪文本的准确度。
 
@@ -33,9 +53,9 @@ python Unimo_interactive_qwen2.5
 ```
 python Unimo_interactive_qwen3.py
 ```
-![image](2.png)
+![image](image/2.png)
 
-启动对比测试界面（和原版内置的情绪文本解析模型进行对比）：
+启动对比测试界面（和原版内置的情绪文本解析模型进行对比，IndexTTS2服务器使用CNB云原生项目：https://cnb.cool/ConyStudio/index-tts-v2 ）：
 ```
 python Unimo_test_qwen2.5.py
 ```
@@ -43,5 +63,4 @@ python Unimo_test_qwen2.5.py
 python Unimo_test_qwen3.py
 ```
 
-![image](1.png)
-
+![image](image/1.png)
